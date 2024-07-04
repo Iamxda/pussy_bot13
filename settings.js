@@ -17,7 +17,7 @@ global.location = "Nigeria, Lagos, Africa" //ur location
 
 //new
 global.botname = '𝗗𝗮𝗩𝗶𝗿𝗮 🤍𝗕𝗼𝘁' //ur bot name
-global.ownernumber = '2349137719262,‪2347088024598' //ur owner number
+global.ownernumber = '2349137719262,2347088024598' //ur owner number
 global.ownername = '𝗗𝗮𝗩𝗶𝗿𝗮 🤍' //ur owner name
 global.websitex = "https://chat.whatsapp.com/BTTuDZX787lLk6JmIEE71a"
 global.wagc = "https://chat.whatsapp.com/BTTuDZX787lLk6JmIEE71a"
