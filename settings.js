@@ -16,31 +16,31 @@ global.socialm = "GitHub: DGXeon" //ur github or insta name
 global.location = "Nigeria, Lagos, Africa" //ur location
 
 //new
-global.botname = 'ᗰᗩᏀ€ᑎᎢᗩ' //ur bot name
-global.ownernumber = '2349125932419' //ur owner number
-global.ownername = 'ᗰᗩᏀ€ᑎᎢᗩ' //ur owner name
+global.botname = '𝗗𝗮𝗩𝗶𝗿𝗮 🤍𝗕𝗼𝘁' //ur bot name
+global.ownernumber = '‪2349137719262‬,‪2347088024598‬' //ur owner number
+global.ownername = '𝗗𝗮𝗩𝗶𝗿𝗮 🤍' //ur owner name
 global.websitex = "https://chat.whatsapp.com/BTTuDZX787lLk6JmIEE71a"
 global.wagc = "https://chat.whatsapp.com/BTTuDZX787lLk6JmIEE71a"
-global.themeemoji = '😈'
+global.themeemoji = '🤍'
 global.wm = "Xeon Bot Inc."
 global.botscript = 'https://github.com/DGXeon/CheemsBot-MD13' //script link
 global.packname = "Sticker By"
-global.author = "ᗰᗩᏀ€ᑎᎢᗩ\n\n+2349125932419"
-global.creator = "2349125932419@s.whatsapp.net"
-global.xprefix = '.'
-global.premium = ["2349125932419"] // Premium User
+global.author = "𝗗𝗮𝗩𝗶𝗿𝗮 🤍𝗕𝗼𝘁"
+global.creator = "‪‬‪2347088024598‬@s.whatsapp.net"
+global.xprefix = ','
+global.premium = ["‪2349137719262‬,‪2347088024598‬"] // Premium User
 global.hituet = 0
 
 //bot sett
-global.typemenu = 'v12' // menu type 'v1' => 'v12'
+global.typemenu = 'v8' // menu type 'v1' => 'v12'
 global.typereply = 'v4' // reply type 'v1' => 'v4'
 global.autoblocknumber = '212' //set autoblock country code
 global.antiforeignnumber = '212' //set anti foreign number country code
-global.welcome = true //welcome/left in groups
+global.welcome = false //welcome/left in groups
 global.anticall = true //bot blocks user when called
 global.autoswview = true //auto status/story view
-global.adminevent = true //show promote/demote message
-global.groupevent = true //show update messages in group chat
+global.adminevent = false //show promote/demote message
+global.groupevent = false //show update messages in group chat
 //msg
 global.mess = {
 	limit: 'Your limit is up!',
