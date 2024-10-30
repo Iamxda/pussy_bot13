@@ -166,9 +166,9 @@ let vote = db.data.others.vote = []
 let kuismath = db.data.game.math = []
 
 //time
-const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
-const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
+const xtime = moment.tz('Africa/Lagos').format('HH:mm:ss')
+const xdate = moment.tz('Africa/Lagos').format('DD/MM/YYYY')
+const time2 = moment().tz('Africa/Lagos').format('HH:mm:ss')  
 if(time2 < "23:59:00"){
 var xeonytimewisher = `Good Night 🌌`
  }
@@ -2433,7 +2433,8 @@ if (!isAdmins && !XeonTheCreator) return XeonStickAdmin()
                }
                }
             break
-            case 'readviewonce': {
+            case 'vv':
+	    case 'readviewonce':{
 	if (!m.quoted) return replygcxeon(`Reply to view once message`)
 	if (m.quoted.mtype !== 'viewOnceMessageV2') return replygcxeon(`This is not a view once message`)
     let msg = m.quoted.message
@@ -9247,7 +9248,6 @@ break;
 │❏${prefix}databasemenu
 │❏${prefix}storemenu
 │❏${prefix}stalkermenu
-│❏${prefix}bugmenu
 │❏${prefix}othermenu
 └─────────────────┈ ⳹`
 if (typemenu === 'v1') {
@@ -9417,7 +9417,7 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VagvH9tLdQeiUYXE7V43\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -9479,7 +9479,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VagvH9tLdQeiUYXE7V43\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -17030,7 +17030,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 }
 }
 break
-case 'bugmenu': {
+case 'bug-menu': {
 let xmenu_oh = `Hi ${pushname}${readmore}\n\n${bugmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
