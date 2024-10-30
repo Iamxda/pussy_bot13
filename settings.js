@@ -16,7 +16,7 @@ global.socialm = "GitHub: DGXeon" //ur github or insta name
 global.location = "Nigeria, Lagos, Africa" //ur location
 
 //new
-global.botname = 'ᏀᏒᎬᎩ ᏴᏫᎢ【𓍯】' //ur bot name
+global.botname = 'ᴀɴᴛɪsᴏᴄɪᴀʟ ʜᴜᴍɪᴅɪᴛʏ' //ur bot name
 global.ownernumber = '2348022159244' //ur owner number
 global.ownername = 'ᗰ❣️ᖴᗴ 【𓍯】' //ur owner name
 global.websitex = "https://whatsapp.com/channel/0029VagvH9tLdQeiUYXE7V43"
